@@ -53,7 +53,7 @@ cp .env.example .env
 streamlit run app.py
 ```
 
-An OpenAI key is optional. Without `OPENAI_API_KEY`, the app automatically generates a rule-based analyst summary.
+Set `SEC_USER_AGENT` in `.env` to your name and contact email before making SEC requests. An OpenAI key is optional. Without `OPENAI_API_KEY`, the app automatically generates a rule-based analyst summary.
 
 ## Generate the AAPL Sample
 
